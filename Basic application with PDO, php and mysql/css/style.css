@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+label, input{
+    display: block;
+    margin-top: 10px;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 90%;
+    margin: 10px auto;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+form h2{
+    text-align: center;
+}
+
+
+form{
+    width: 330px;
+    background-color: rgba(0,0, 0, 0.2);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+#section-left{
+    width: 35%;
+    float: left;
+    height: 500px;
+}
+
+#section-right{
+    width: 65%;
+    float: left;
+    height: 500px;
+}
+
+table{
+    width: 90%;
+    margin: 30px auto;
+}
+
+table td{
+    line-height: 30px;
+}
+
+table tr#data-title{
+    font-weight: bold;
+    background-color: rgba(0,0,0, 0.6);
+    color: white;
+}
+
+table .data-row{
+    background-color: rgba(0,0, 0, 0.2);
+}
+
+td{
+    padding: 0px 5px;
+}
+
+a{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
